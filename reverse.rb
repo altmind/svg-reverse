@@ -9,11 +9,11 @@ filename = ARGV.length>=2 ? ARGV[1] : "svg.css"
 parser.load_file!(filename)
 
 def sanitizeFilename(arg)
-  arg.gsub(/[^A-Za-z0-9\-_. ]+/m, '').gsub(/\.+/m, '(dot)')
+  arg.gsub(/[^A-Za-z0-9\-_]+/m, '')#.gsub(/\.+/m, '(dot)')
 end
 
 ctr = 0
-html_content="<style>.previewimg{height:100px;width:100px}</style>"
+html_content="<style>body{background-color:#ffa} \n.previewimg{height:100px;width:100px; border: 1px dotted silver;}</style>"
 parser.each_rule_set do |rule_set|
   selector=rule_set.selectors.join("")
   background_image = rule_set['background-image']
@@ -30,4 +30,4 @@ parser.each_rule_set do |rule_set|
   end
 end
 
-File.write("index.html", html_content)
+File.write("preview.html", html_content)
