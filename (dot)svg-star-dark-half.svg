@@ -1,0 +1,17 @@
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100%" height="100%" viewBox="0 0 34 33" enable-background="new 0 0 34 33" xml:space="preserve">
+<g id="icon_216_35_">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#4D4D4D" d="M33.02,13.42H20.695L17,1.097L13.305,13.42H0.98l9.855,6.779
+		L7.141,31.902L17,25.744l9.859,6.158L23.16,20.199L33.02,13.42z"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-1.409" y="-4.601" width="19.042" height="41.003"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M33.021,13.417H20.697L16.997,1.094
+		l-3.713,12.323H0.939l9.864,6.782L7.099,31.902l9.897-6.159l9.865,6.159l-3.699-11.703L33.021,13.417z"/>
+</g>
+</svg>
